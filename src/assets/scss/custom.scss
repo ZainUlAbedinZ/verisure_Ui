@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+//
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../Fonts/GothamRoundedMedium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Gotham Rounded Light';
+	src: url('../Fonts/GothamRoundedLight.ttf') format('truetype');
+}
+$body-bg: #050516;
+$body-color: #f2f2f2;
+body {
+	overflow-x: hidden;
+}
+
+$theme-colors: (
+	'site-primary': #03223f,
+	'orange': #ff0032,
+	'site-main-color': #d6d5d2,
+	'site-table-color': #d6d5d3,
+	// site-main-color
+	'site-horizontalBar-color': #48cae4,
+);
+* {
+	font-family: 'Gotham Rounded';
+}
+
+// 48cae4
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+html {
+	font-size: 18px;
+	@media (max-width: 1799.98px) {
+		font-size: 17px;
+	}
+	@media (max-width: 1399.98px) {
+		font-size: 16px;
+	}
+	@media (max-width: 1199.98px) {
+		font-size: 13px;
+	}
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 567.98px) {
+		font-size: 11px;
+	}
+}
+$weights: 100 200 300 400 500 600 700 800;
+@each $weight in $weights {
+	.fw--#{$weight} {
+		font-weight: $weight;
+	}
+}
+@for $size from 12 through 96 {
+	.fs--#{$size} {
+		font-size: $size/16 + rem;
+	}
+}
+
+.Forse-toename_pargraph {
+	font-family: 'Gotham Rounded', 'sans serif';
+	font-weight: 700;
+}
+.veri_Inbraakonderzoek_paragraph {
+	font-family: 'Gotham Rounded Light', 'sans serif';
+	line-height: 1.6;
+}
+.cirkel {
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	color: #ff0032;
+	line-height: 30px;
+	display: inline-block;
+	margin-right: 10px;
+	font-family: 'Gotham Rounded Light';
+}
+.formImg {
+	&__first {
+		margin-left: -40px;
+		@media only screen and (max-width: 767px) {
+			margin-left: 0;
+			width: 100% !important;
+			// margin-top: -25px;
+			margin-top: -2px;
+		}
+	}
+	&__second {
+		margin-top: -40px;
+		margin-left: -100px;
+		@media only screen and (max-width: 767px) {
+			margin-left: 0;
+		}
+	}
+}
+.midSection__card {
+	background-color: #222 !important;
+	border-radius: 0.25rem !important;
+
+	@media only screen and (max-width: 991px) {
+		margin-left: 0;
+		// z-index: -1;
+		padding-left: 25px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: -30px;
+	}
+}
+.heading-container {
+	&_row {
+		div:hover {
+			// background-color:#222 ;
+			color: #222;
+			cursor: pointer;
+		}
+		p:hover {
+			// background-color: #222;
+			color: #222;
+			cursor: pointer;
+		}
+	}
+}
+// Footer
+.footer {
+	background-color: #f2f2f2 !important;
+	color: #000 !important;
+}

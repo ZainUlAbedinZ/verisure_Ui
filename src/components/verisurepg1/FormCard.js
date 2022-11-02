@@ -24,7 +24,7 @@ function FormCard() {
 				<div className='bg-orange'>
 					<FormGroup className='align-self-center bg-orange '>
 						<div className='container py-3'>
-							<h5 className='p-3 text-white veri_Inbraakonderzoek_paragraph fw--800'>
+							<h5 className='p-3 text-white veri_Inbraakonderzoek_Paragraph fw--800'>
 								{/* <p className='text-white text-center veri_Inbraakonderzoek_paragraph '> */}
 								Bescherm wat voor jou belangrijk is! Laat je
 								vrijblijvend informeren over een alarmsysteem op
@@ -34,7 +34,7 @@ function FormCard() {
 							<br />
 							<Row className=''>
 								<Col sm='6'>
-									<Label className='text-white veri_Inbraakonderzoek_paragraph fw--700 fs--17'>
+									<Label className='text-white veri_Inbraakonderzoek_Paragraph fw--700 fs--17'>
 										Voornam
 									</Label>
 									<Input
@@ -43,7 +43,7 @@ function FormCard() {
 									/>
 								</Col>
 								<Col sm='6'>
-									<Label className='text-white veri_Inbraakonderzoek_paragraph fw--700 fs--17'>
+									<Label className='text-white veri_Inbraakonderzoek_Paragraph fw--700 fs--17'>
 										Achternaam
 									</Label>
 									<Input
@@ -53,7 +53,7 @@ function FormCard() {
 								</Col>
 							</Row>
 							<Row className='mx-1 my-1'>
-								<Label className='text-white veri_Inbraakonderzoek_paragraph fw--700 fs--17'>
+								<Label className='text-white veri_Inbraakonderzoek_Paragraph fw--700 fs--17'>
 									Telefoonnummer
 								</Label>
 								<Input
@@ -63,7 +63,7 @@ function FormCard() {
 							</Row>
 
 							<Row className='mx-1 my-1'>
-								<Label className='text-white veri_Inbraakonderzoek_paragraph fw--700 fs--17'>
+								<Label className='text-white veri_Inbraakonderzoek_Paragraph fw--700 fs--17'>
 									Email
 								</Label>
 								<Input
@@ -73,13 +73,13 @@ function FormCard() {
 							</Row>
 							<Button
 								color='success'
-								className='btn w-100 mx-1 my-4 py-3 btn-bg btn-secondary Forse-toename_pargraph'
+								className='btn w-100 mx-1 my-4 py-3 btn-bg btn-secondary forse-Toename_Pargraph'
 							>
 								<h2>GRATIS BEREKENEN </h2>
 							</Button>
 
 							{/* SMALL */}
-							<small className='text-center pt-3 px-md-2 mb-4 text-white veri_Inbraakonderzoek_paragraph fw--700'>
+							<small className='text-center pt-3 px-md-2 mb-4 text-white veri_Inbraakonderzoek_Paragraph fw--700'>
 								Door op “Gratis berekenen” te drukken ga je
 								akkoord met de algemene voorwaarden. Verisure
 								informeert je eenmalig per e-mail of telefoon

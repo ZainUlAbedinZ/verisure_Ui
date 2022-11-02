@@ -5,12 +5,12 @@ const Header = props => {
 	return (
 		<>
 			<div className='mt-4 text-center'>
-				<h1 className='text-white fw--700 w-100 p-0 m-0 Forse-toename_pargraph'>
+				<h1 className='text-white fw--700 w-100 p-0 m-0 forse-Toename_Pargraph'>
 					Forse toename{' '}
 					<span className='text-orange'>woninginbraken </span> door de
 					zomermaanden!
 				</h1>
-				<h3 className='Forse-toename_pargraph'>
+				<h3 className='forse-Toename_Pargraph'>
 					Test je kennis en ontvang een GRATIS videodeurbel + 40%
 					korting!
 				</h3>

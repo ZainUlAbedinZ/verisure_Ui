@@ -35,7 +35,7 @@ function MidSection() {
 									{' '}
 									24 uur per dag/365 dagen per jaar{' '}
 								</h5>
-								<p className='mt-4 font-weight-bold veri_Inbraakonderzoek_paragraph fw--700 ml-md-3'>
+								<p className='mt-4 font-weight-bold veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
 									{' '}
 									Verisure zorgt ervoor dat jouw veiligheid en
 									die van jouw dierbaren wordt beschermd. Onze
@@ -43,7 +43,7 @@ function MidSection() {
 									met onze meldkamer. Zo garanderen wij iedere
 									dag jouw bescherming.{' '}
 								</p>
-								<p className='veri_Inbraakonderzoek_paragraph fw--700 ml-md-3'>
+								<p className='veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
 									Elke waarschuwing of noodsituatie zal worden
 									beantwoord door een van onze operators in
 									een gemiddelde tijd van 29 seconden. Onze
@@ -54,7 +54,7 @@ function MidSection() {
 									surveillant, politie, brandweer of ambulance
 									naar jouw huis.
 								</p>
-								<p className='veri_Inbraakonderzoek_paragraph fw--700 ml-md-3'>
+								<p className='veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
 									Verisure is de beste partner om jouw huis te
 									beschermen bij een gevaarlijke situatie: als
 									een overvaller het huis binnenkomt, als er

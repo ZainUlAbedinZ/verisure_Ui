@@ -42,10 +42,10 @@ function MainContainer() {
 									''
 								) : (
 									<>
-										<h3 className='pt-md-4 pl-md-4  m-0 text-white veri_Inbraakonderzoek_paragraph fw--700'>
+										<h3 className='pt-md-4 pl-md-4  m-0 text-white veri_Inbraakonderzoek_Paragraph fw--700'>
 											Verisure Inbraakonderzoek
 										</h3>
-										<p className='p-0 m-0 px-md-3 text-white pb-3 pb-md-5 veri_Inbraakonderzoek_paragraph  fw--700'>
+										<p className='p-0 m-0 px-md-3 text-white pb-3 pb-md-5 veri_Inbraakonderzoek_Paragraph  fw--700'>
 											Beantwoord enkele vragen over jouw
 											kennis. Klik hieronder op het
 											antwoord wat jij denkt dat juist is
@@ -56,61 +56,61 @@ function MainContainer() {
 								)}
 
 								<div className='container bg-light'>
-									<h5 className='p-2 text-dark veri_Inbraakonderzoek_paragraph fw--600'>
+									<h5 className='p-2 text-dark veri_Inbraakonderzoek_Paragraph fw--600'>
 										{active === 1 ? (
-											<p className='text-dark Forse-toename_pargraph fw--400'>
+											<p className='text-dark forse-Toename_Pargraph fw--400'>
 												1. Hoeveel woninginbraken zijn
 												er gemiddeld per jaar in
 												Nederland?
 											</p>
 										) : active === 2 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												2. In welke provincie zijn de
 												meeste woninginbraken per jaar
 												volgens het meest recente
 												onderzoek?{' '}
 											</p>
 										) : active === 3 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												2. In welke provincie zijn de
 												meeste woninginbraken per jaar
 												volgens het meest recente
 												onderzoek?{' '}
 											</p>
 										) : active === 4 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												2. In welke provincie zijn de
 												meeste woninginbraken per jaar
 												volgens het meest recente
 												onderzoek?{' '}
 											</p>
 										) : active === 5 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												3. Hoeveel % van de woningen in
 												Nederland is voorzien van een
 												alarmsysteem?{' '}
 											</p>
 										) : active === 6 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												3. Hoeveel % van de woningen in
 												Nederland is voorzien van een
 												alarmsysteem?
 											</p>
 										) : active === 7 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												4. Waar staat uw woning?
 											</p>
 										) : active === 8 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												4. Waar staat uw woning?
 											</p>
 										) : active === 9 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												5. Zijn uw waardevolle spullen
 												zichtbaar van buiten?
 											</p>
 										) : active === 10 ? (
-											<p className='text-dark Forse-toename_pargraph fw-400'>
+											<p className='text-dark forse-Toename_Pargraph fw-400'>
 												5. Zijn uw waardevolle spullen
 												zichtbaar van buiten?
 											</p>
@@ -161,7 +161,7 @@ function MainContainer() {
 										)}
 									</div>
 									<p
-										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_paragraph fw--700'
+										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_Paragraph fw--700'
 										onClick={e => NextCard(e)}
 									>
 										{/* 25.0000 inbraken per jaar */}
@@ -235,7 +235,7 @@ function MainContainer() {
 										)}
 									</div>
 									<p
-										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_paragraph fw--700'
+										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_Paragraph fw--700'
 										onClick={e => NextCard(e)}
 									>
 										{active === 1 ? (
@@ -253,13 +253,13 @@ function MainContainer() {
 										) : active === 7 ? (
 											'In een woonwijk'
 										) : active === 8 ? (
-											<p className='ml-md-5 veri_Inbraakonderzoek_paragraph fw--700'>
+											<p className='ml-md-5 veri_Inbraakonderzoek_Paragraph fw--700'>
 												Bedankt voor je antwoord.
 											</p>
 										) : active === 9 ? (
 											'Deze zijn deels zichtbaar'
 										) : active === 10 ? (
-											<p className='text-center mr-md-5 veri_Inbraakonderzoek_paragraph '>
+											<p className='text-center mr-md-5 veri_Inbraakonderzoek_Paragraph '>
 												Bedankt voor je gegeven
 												antwoorden. Laat Verisure je
 												vrijblijvend informeren en
@@ -312,7 +312,7 @@ function MainContainer() {
 											: ''}
 									</div>
 									<p
-										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_paragraph fw--700'
+										className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_Paragraph fw--700'
 										onClick={e => NextCard(e)}
 									>
 										{/* 115.000 inbraken per jaar */}
@@ -321,7 +321,7 @@ function MainContainer() {
 										) : active === 2 ? (
 											<div className='w-100 text-center justify-content-center mx-auto'>
 												<button className='btn btn-md p-3 bg-white text-dark'>
-													<span className='Forse-toename_pargraph'>
+													<span className='forse-Toename_Pargraph'>
 														{' '}
 														Volgende vraag {
 															'>>'
@@ -338,7 +338,7 @@ function MainContainer() {
 										) : active === 6 ? (
 											<div className='w-100  text-center justify-content-center'>
 												<button className='btn btn-md p-3 bg-white text-dark mx-auto'>
-													<span className='Forse-toename_pargraph'>
+													<span className='forse-Toename_Pargraph'>
 														Volgende vraag {'>>'}
 													</span>
 												</button>
@@ -346,14 +346,14 @@ function MainContainer() {
 										) : active === 7 ? (
 											'In enn landelijke omgeving'
 										) : active === 8 ? (
-											<button className='btn btn-md p-3 bg-white text-dark Forse-toename_pargraph ml-md-5'>
+											<button className='btn btn-md p-3 bg-white text-dark forse-Toename_Pargraph ml-md-5'>
 												Volgende vraag {'>>'}
 											</button>
 										) : active === 9 ? (
 											'Nee, deze zijn niet zichtbaar'
 										) : active === 10 ? (
 											<button className='btn btn-md p-3 bg-white text-dark ml-md-5'>
-												<span className='Forse-toename_pargraph'>
+												<span className='forse-Toename_Pargraph'>
 													Laat je gegevens achter{' '}
 													{'>>'}
 												</span>
@@ -373,7 +373,7 @@ function MainContainer() {
 												D
 											</div>
 											<p
-												className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_paragraph fw--700'
+												className='p-0 m-0 mt-1 text-left veri_Inbraakonderzoek_Paragraph fw--700'
 												onClick={e => NextCard(e)}
 											>
 												{active === 3

@@ -33,7 +33,7 @@ function Footer() {
 
 	return (
 		<>
-			<div className='footer'>
+			<div className='footer justify-content-center'>
 				<Container className='text-light'>
 					<Modal
 						isOpen={ModalVisible}
@@ -265,21 +265,30 @@ function Footer() {
 							</Button>
 						</div>
 					</Modal>
-					<Row>
-						<div className='text-center'>
-							<p className='text-dark'>
-								Bij deelname aan deze online campagne en het
-								verzenden van je gegevens stemt je in met de
-								<span onClick={() => setModalVisible(true)}>
-									{' '}
-									voorwaarden
-								</span>{' '}
-								en de{' '}
-								<span onClick={() => setTextModal(true)}>
-									privacyverklaring
-								</span>
-								. <br />
-								<small>
+					<Row className='justify-content-center'>
+						<div className='text-center text-dark py-4  jusify-content-center align-self-center'>
+							<p className='m-0 '>
+								<b className='font-weight-bold'>
+									Bij deelname aan deze online campagne en het
+									verzenden van je gegevens stemt je in met de
+									<span
+										className='footer_voorwaarden'
+										onClick={() => setModalVisible(true)}
+									>
+										{' '}
+										voorwaarden
+									</span>{' '}
+									en de{' '}
+									<span
+										className='footer_voorwaarden'
+										onClick={() => setTextModal(true)}
+									>
+										privacyverklaring
+									</span>
+									.
+								</b>{' '}
+								<br />
+								<small className='fs-5 font-weight-light'>
 									Deze actie wordt uitgevoerd in samenwerking
 									met Verisure. ( Securitas Direct NV,
 									Onderneming voor alarmsystemen 20.1325.07

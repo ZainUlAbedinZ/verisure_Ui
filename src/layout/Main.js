@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Main = props => {
 	return (
 		<>
-			<Header />
+			<Header className='bg-main-container' />
 			{props.children}
 			<Footer className='footer' />
 		</>

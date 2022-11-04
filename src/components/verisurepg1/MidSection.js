@@ -9,33 +9,38 @@ function MidSection() {
 			{/* First Section  p-2 p-md-5*/}
 			<div className='bg-white '>
 				<Container className='text-center'>
-					<h3 className='p-0 m-0 text-dark font-weight-bold pt-3 '>
-						{' '}
-						Het aantal woninginbraken is met ruim 33% toegenomen en
-						zal de komende maanden alleen maar verder toenemen!{' '}
-					</h3>
-					<h3 className='p-2 m-0 font-weight-bold text-orange'>
-						{' '}
-						Zorg dat jouw huis niet de volgende is!{' '}
-					</h3>
+					<div className='py-4'>
+						<h3 className='p-0 m-0 text-dark font-weight-bold pt-3 '>
+							{' '}
+							Het aantal woninginbraken is met ruim 33% toegenomen
+							en zal de komende maanden alleen maar verder
+							toenemen!{' '}
+						</h3>
+						<h3 className='p-2 m-0 font-weight-bold text-orange'>
+							{' '}
+							Zorg dat jouw huis niet de volgende is!{' '}
+						</h3>
+					</div>
 				</Container>
 
 				{/* Second Section */}
 				<Container className='p-md-5'>
 					<Row>
-						<Col md='6' xs='12' className='p-0'>
-							<img src={Cat} alt='cat' className='w-100' />
+						<Col md='6' xs='12' className='p-0 '>
+							<div>
+								<img src={Cat} alt='cat' className='cat_img' />
+							</div>
 						</Col>
 						<Col md='6' xs='12' className='pt-md-5 p-0'>
-							<div className='midSection__card text-white py-5 px-md-2'>
-								<h4 className='m-0 text-orange text-center text-md-left fw--700 ml-md-3'>
+							<div className='midSection__card text-white py-5 px-md-5'>
+								<h4 className='m-0 text-orange text-center text-md-left fw--500 ml-md-3'>
 									Bescherm jouw familie en huis
 								</h4>
-								<h5 className='text-orange text-center text-md-left fw--700 ml-md-3'>
+								<h5 className='text-orange text-center text-md-left  fw--500 ml-md-3'>
 									{' '}
 									24 uur per dag/365 dagen per jaar{' '}
 								</h5>
-								<p className='mt-4 font-weight-bold veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
+								<p className='mt-4 font-weight-light fs--18 ml-md-3'>
 									{' '}
 									Verisure zorgt ervoor dat jouw veiligheid en
 									die van jouw dierbaren wordt beschermd. Onze
@@ -43,7 +48,7 @@ function MidSection() {
 									met onze meldkamer. Zo garanderen wij iedere
 									dag jouw bescherming.{' '}
 								</p>
-								<p className='veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
+								<p className='font-weight-normal fw--300 ml-md-3'>
 									Elke waarschuwing of noodsituatie zal worden
 									beantwoord door een van onze operators in
 									een gemiddelde tijd van 29 seconden. Onze
@@ -54,7 +59,7 @@ function MidSection() {
 									surveillant, politie, brandweer of ambulance
 									naar jouw huis.
 								</p>
-								<p className='veri_Inbraakonderzoek_Paragraph fw--700 ml-md-3'>
+								<p className='font-weight-normal fw--300 ml-md-3'>
 									Verisure is de beste partner om jouw huis te
 									beschermen bij een gevaarlijke situatie: als
 									een overvaller het huis binnenkomt, als er
